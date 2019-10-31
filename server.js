@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 
 var jsonParser = bodyParser.json();
  
-var PORT = process.env.port || 8080;
+var PORT = process.env.PORT || 8080;
  
 app.use(bodyParser.urlencoded({ extended: true }));
 
